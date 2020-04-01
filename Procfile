@@ -1,1 +1,1 @@
-discordbot: python discordbot.py
+discordbot: python katagaki_disco.py
