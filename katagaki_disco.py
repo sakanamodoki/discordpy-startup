@@ -43,6 +43,7 @@ async def on_message(message):
                 xx2 = random.choice(xx)
                 yy2 = random.choice(yy)
                 
+    
                 #message.author.mention 追加することでメンションする
                 m = message.author.mention + xx2 + yy2
                 
@@ -50,4 +51,4 @@ async def on_message(message):
                 # 該当チャンネルに送信
                 await message.channel.send(m)
 
-client.run("NjgyMTk4OTQzMzgzMjg5OTE2.XlZh2Q.g2-kuISTjRE2sPB8IYGNRZwBbeE")
+client.run("NjgyMTk4OTQzMzgzMjg5OTE2.XoQ4SQ.LbP1gD0NSwoY0N6yMbZZ2IrzhBQ")
